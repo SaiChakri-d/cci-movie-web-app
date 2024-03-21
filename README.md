@@ -4,4 +4,5 @@
 - Displays list of movies available in OMDB API database.
 - Also displays movie plot information for each movie.
 - Search results are displayed using pagination.
+- Carried out Unit Testing using Jest and Enzyme.
 
