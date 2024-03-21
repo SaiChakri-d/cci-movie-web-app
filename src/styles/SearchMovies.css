@@ -1,0 +1,106 @@
+.page-title {
+  color: #01146a;
+  text-align: center;
+}
+
+.search-box {
+  display: flex;
+  background-color: #bfbfbf;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.search-input {
+  border-radius: 0.25rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  width: 25%;
+}
+
+.search-btn {
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  margin-left: 1rem;
+  border-radius: 1rem;
+  color: #ffffff;
+  background-color: #5f00ad;
+}
+.search-btn:hover {
+  background-color: #845fc9;
+  box-shadow: 1px 1px 1px rgb(19, 19, 19);
+}
+.search-btn:active {
+  background-color: #979797;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  column-gap: 0rem;
+  margin: 1rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  margin: 2rem;
+  width: 20%;
+  height: 20%;
+  /* max-height: fit-content; */
+  background-color: #ffec7f;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.card-info {
+  text-align: left;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  height: 18vh;
+}
+
+.card-img {
+  margin: auto;
+  width: 300px;
+  height: 400px;
+  justify-content: center;
+  overflow: hidden;
+  object-fit: fill;
+}
+
+.movie-card-btn {
+  padding: 0.5rem;
+  border-radius: 1rem;
+  color: #ffffff;
+  background-color: #157b00;
+  font-size: 0.8rem;
+  margin: 1rem;
+}
+.movie-card-btn:hover {
+  background-color: #00a550;
+  box-shadow: 1px 1px 1px rgb(19, 19, 19);
+}
+.movie-card-btn:active {
+  background-color: #979797;
+}
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background-color: #d9ec73;
+}
+
+.error-notice {
+  color: #ba3939;
+  background: #ffe0e0;
+  border: 1px solid #a33a3a;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 1rem;
+}
